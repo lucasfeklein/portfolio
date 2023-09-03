@@ -1,9 +1,5 @@
-import React from 'react'
-
 const Works = () => {
-  return (
-    <div>Works</div>
-  )
-}
+  return <></>;
+};
 
-export default Works
+export default Works;
