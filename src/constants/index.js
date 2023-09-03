@@ -3,7 +3,6 @@ import {
   carrent,
   creator,
   css,
-  docker,
   figma,
   git,
   html,
@@ -11,15 +10,12 @@ import {
   jobit,
   meta,
   mobile,
-  mongodb,
   nodejs,
   reactjs,
-  redux,
   shopify,
   starbucks,
   tailwind,
   tesla,
-  threejs,
   tripguide,
   typescript,
   web,
@@ -80,10 +76,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -93,24 +86,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
