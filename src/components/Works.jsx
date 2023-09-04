@@ -1,7 +1,23 @@
 import { motion } from "framer-motion";
+import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
+
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  tags,
+  image,
+  source_code_link,
+}) => {
+  return (
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      Test
+    </motion.div>
+  );
+};
 
 const Works = () => {
   return (
@@ -24,7 +40,11 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div></div>
+      <div className="mt-20 flex flex-wrap gap-7">
+        {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} {...project} index={index} />
+        ))}
+      </div>
     </>
   );
 };
