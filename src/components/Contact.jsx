@@ -18,7 +18,10 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmite = (e) => {};
+  const handleSubmite = (e) => {
+    e.preventDefault();
+    console.log("test");
+  };
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
