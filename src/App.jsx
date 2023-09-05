@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
@@ -30,6 +31,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <Toaster />
     </BrowserRouter>
   );
 };

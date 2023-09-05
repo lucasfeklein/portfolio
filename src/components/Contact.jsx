@@ -1,5 +1,7 @@
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
+import { toast } from "react-hot-toast";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
@@ -15,11 +17,40 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
   };
 
   const handleSubmite = (e) => {
     e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_73vqlhe",
+        "template_2nu897i",
+        {
+          from_name: form.name,
+          to_name: "Lucas",
+          from_email: form.email,
+          message: form.message,
+        },
+        "sgRvoeriyKLEu79x-"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          toast.success(
+            "Thank you. I will get back to you as soon as possible."
+          );
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          toast.error("Something went wrong.");
+        }
+      );
   };
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
