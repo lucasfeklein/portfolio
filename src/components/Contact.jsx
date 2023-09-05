@@ -20,7 +20,6 @@ const Contact = () => {
 
   const handleSubmite = (e) => {
     e.preventDefault();
-    console.log("test");
   };
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
