@@ -201,7 +201,7 @@ const projects = [
   {
     name: "DynamicPOA Blog",
     description:
-      "A Gatsby-powered blog, with a user-friendly Content Management System (CMS). This platform simplifies content creation, making it a breeze for the client to manage and publish their blog posts effortlessly.",
+      "A Gatsby-powered blog, with a user-friendly Content Management System (CMS), developed as a freelance project. This platform simplifies content creation, making it a breeze for the client to manage and publish their blog posts effortlessly.",
     tags: [
       {
         name: "gatsby",
