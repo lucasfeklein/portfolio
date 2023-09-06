@@ -1,7 +1,6 @@
 import {
   backend,
   carrent,
-  creator,
   css,
   figma,
   git,
@@ -9,7 +8,6 @@ import {
   javascript,
   jobit,
   meta,
-  mobile,
   nodejs,
   reactjs,
   shopify,
@@ -41,18 +39,18 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [

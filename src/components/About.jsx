@@ -42,9 +42,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I still have no idea what i do, i'm a beginner ande have 0 skills so you
-        better hire me otherwise i'm going to die from starvation. I learn fast
-        and have the desire to learn every thing thats going to help me
+        I'm a programmer with experience in TypeScript and JavaScript, and
+        familiar with frameworks like React and Node.js. I'm a quick learner and
+        enjoy collaborating to create efficient, scalable, and user-friendly
+        solutions that solve real-world problems. Let's work together to bring
+        your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex-wrap flex gap-10">
