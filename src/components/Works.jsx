@@ -32,11 +32,15 @@ const ProjectCard = ({
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
+              {source_code_link.includes("github") ? (
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              ) : (
+                <p className="text-xs font-bold">DEMO</p>
+              )}
             </div>
           </div>
         </div>
@@ -71,11 +75,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Projects Projects Projects Projects Projects ProjectsProjects Projects
-          ProjectsProjects Projects ProjectsProjects Projects Projects Projects
-          Projects ProjectsProjects Projects ProjectsProjects Projects
-          ProjectsProjects Projects Projects Projects Projects ProjectsProjects
-          Projects ProjectsProjects Projects Projects
+          Following projects showcases my skills and experience. Each project is
+          briefly described with links to code repositories and/or live demos in
+          it. It reflects my ability to solve complex problems, work with
+          different technologies, and manage projects effectively.
         </motion.p>
       </div>
 

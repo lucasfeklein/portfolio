@@ -1,12 +1,12 @@
 import {
   backend,
-  carrent,
+  chatbot,
   css,
+  dynamicblog,
   figma,
   git,
   html,
   javascript,
-  jobit,
   meta,
   nodejs,
   reactjs,
@@ -177,16 +177,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Chatbot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An intelligent Chatbot that extracts information from a client's website and delivers well-structured, highly efficient, and pinpoint accurate responses. Embedding this Chatbot onto a client's website is as simple as copying and pasting a script tag.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -194,29 +194,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chatbot,
+    source_code_link: "https://github.com/lucasfeklein/scb-backend",
   },
   {
-    name: "Job IT",
+    name: "DynamicPOA Blog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Gatsby-powered blog, with a user-friendly Content Management System (CMS). This platform simplifies content creation, making it a breeze for the client to manage and publish their blog posts effortlessly.",
     tags: [
       {
-        name: "react",
+        name: "gatsby",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CMS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dynamicblog,
+    source_code_link: "https://dynamicpoa.com/blog",
   },
   {
     name: "Trip Guide",

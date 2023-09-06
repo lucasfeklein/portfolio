@@ -27,16 +27,20 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import chatbot from "./chatbot.png";
+import dynamicblog from "./dynamicblog.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   backend,
   carrent,
+  chatbot,
   close,
   creator,
   css,
   docker,
+  dynamicblog,
   figma,
   git,
   github,
