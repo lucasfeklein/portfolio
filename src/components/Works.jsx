@@ -76,9 +76,9 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience. Each project is
-          briefly described with links to code repositories and/or live demos in
-          it. It reflects my ability to solve complex problems, work with
-          different technologies, and manage projects effectively.
+          briefly described with links to code repositories or live demos. It
+          reflects my ability to solve complex problems, work with different
+          technologies, and manage projects effectively.
         </motion.p>
       </div>
 
