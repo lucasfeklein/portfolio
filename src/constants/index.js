@@ -8,6 +8,7 @@ import {
   html,
   javascript,
   meta,
+  mobile,
   nodejs,
   reactjs,
   shopify,
@@ -39,10 +40,10 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
+  {
+    title: "Frontend Developer",
+    icon: mobile,
+  },
   {
     title: "Backend Developer",
     icon: backend,
