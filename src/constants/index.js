@@ -6,6 +6,7 @@ import {
   figma,
   git,
   html,
+  imagegenerator,
   javascript,
   meta,
   mobile,
@@ -15,7 +16,6 @@ import {
   starbucks,
   tailwind,
   tesla,
-  tripguide,
   typescript,
   web,
 } from "../assets";
@@ -220,25 +220,21 @@ const projects = [
     source_code_link: "https://dynamicpoa.com/blog",
   },
   {
-    name: "Trip Guide",
+    name: "AI Image Generator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Full-stack project developed using t3-stack, featuring authentication, and designed with Mantine (React components library). This project harnesses the power of artificial intelligence to generate unique images based on txt2img through a pre-trained model.",
     tags: [
       {
-        name: "nextjs",
+        name: "t3-stack",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mantine",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: imagegenerator,
+    source_code_link: "https://github.com/lucasfeklein/imageAI",
   },
 ];
 
