@@ -4,7 +4,7 @@ Welcome to my portfolio! I'm a junior developer enthusiastic about self-improvem
 
 ## Link
 
-[Portfolio](https://lucasklein.netlify.app/)
+Visit my [portfolio website](https://lucasklein.netlify.app/) to learn more about me!
 
 ## Summary
 
