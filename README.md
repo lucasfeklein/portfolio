@@ -12,6 +12,6 @@ I'm a junior developer with a strong passion for coding and a commitment to cont
 
 ## Contact
 
-I'm always open to new opportunities and collaborations. Feel free to reach out to me via email at lucas.fklein7@gmail.com or connect with me on LinkedIn at [https://www.linkedin.com/in/lucas-klein-65027821a/].
+I'm always open to new opportunities and collaborations. Feel free to reach out to me via email at lucas.fklein7@gmail.com or connect with me on LinkedIn at https://www.linkedin.com/in/lucas-klein-65027821a/.
 
 Thank you for visiting my portfolio! I'm excited about the opportunity to contribute and learn in the world of software development.
